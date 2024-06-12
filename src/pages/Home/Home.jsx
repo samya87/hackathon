@@ -1,6 +1,10 @@
+import { useLoaderData } from "react-router-dom";
 import Navbar from "../shared/Navbar/Navbar";
+import ServiceCard from "./ServiceCard";
 
 const Home = () => {
+    const services = useLoaderData();
+    // console.log(service);
     return (
         <div>
             <Navbar></Navbar>
@@ -13,7 +17,11 @@ const Home = () => {
                     <button className="btn bg-violet-700 text-white">Register</button>
                 </div>
             </div>
-            
+            <div className="grid grid-cols-3 space-y-4">
+                {
+                    services.map(service => <ServiceCard key={service.id} service={service}></ServiceCard>)
+                }
+            </div>
         </div>
     );
 };

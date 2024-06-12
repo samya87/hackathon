@@ -1,0 +1,42 @@
+[
+    
+    {
+      "id": 2,
+      "image": "https://example.com/image2.jpg",
+      "title": "Mentorship Sessions",
+      "desc": "Get expert guidance from experienced mentors to refine your project ideas."
+    },
+    {
+      "id": 3,
+      "image": "https://example.com/image3.jpg",
+      "title": "Technical Workshops",
+      "desc": "Attend workshops on cutting-edge technologies to enhance your skills."
+    },
+    {
+      "id": 4,
+      "image": "https://example.com/image4.jpg",
+      "title": "Networking Opportunities",
+      "desc": "Connect with like-minded individuals and potential collaborators."
+    },
+    {
+      "id": 5,
+      "image": "https://example.com/image5.jpg",
+      "title": "Prize Pool",
+      "desc": "Compete for exciting prizes and recognition for your innovative projects."
+    },
+    
+    {
+      "id": 8,
+      "image": "https://example.com/image8.jpg",
+      "title": "Resource Library",
+      "desc": "Access a curated library of resources including APIs, datasets, and tools."
+    },
+    {
+      "id": 9,
+      "image": "https://example.com/image9.jpg",
+      "title": "Live Demos",
+      "desc": "Showcase your project through live demos and receive feedback in real-time."
+    }
+    
+  ]
+  
